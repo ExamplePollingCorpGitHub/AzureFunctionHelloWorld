@@ -1,3 +1,4 @@
+# at the top of your YAML file 
 # set some variables that you'll need when you deploy
 variables:
   # the name of the service connection that you created above
@@ -10,7 +11,7 @@ variables:
   # the name of your functionApp is what you provided as
   # stagingDirectory in pom.xml
   functionAppName: 'HelloWorld'
-  POM_XML_Directory: 'HelloWorld'
+  POM_XML_Directory: 'AzureFunctionHelloWorld'
 # ...
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:

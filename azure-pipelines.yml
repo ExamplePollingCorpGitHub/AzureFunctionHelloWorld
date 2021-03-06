@@ -6,12 +6,12 @@ variables:
   #
   # the name of your web app here is the same one you used above
   # when you created the web app using the Azure CLI
-  appName: 'AzureJavaDemoFunction'
+  appName: 'AzureFunctionHelloWorld'
   #
   # the name of your functionApp is what you provided as
   # stagingDirectory in pom.xml
-  functionAppName: 'helloWorld'
-  POM_XML_Directory: 'helloWorld'
+  functionAppName: 'HelloWorld'
+  POM_XML_Directory: 'HelloWorld'
 # ...
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
